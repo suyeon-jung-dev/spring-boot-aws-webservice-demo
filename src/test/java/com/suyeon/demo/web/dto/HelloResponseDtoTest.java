@@ -1,4 +1,4 @@
-package com.suyeon.demo.tdd.dto;
+package com.suyeon.demo.web.dto;
 
 import org.assertj.core.api.Assertions;
 import org.junit.Test;
@@ -15,7 +15,7 @@ public class HelloResponseDtoTest {
         HelloResponseDto dto = new HelloResponseDto(name, amount);
 
         //then
-        Assertions.assertThat(dto.getName()).isEqualTo(name);
+        Assertions.assertThat(dto.getName()).isEqualTo(name);   // org.assertj.core 라이브러리 사용!
         Assertions.assertThat(dto.getAmount()).isEqualTo(amount);
 
     }

@@ -1,4 +1,4 @@
-package com.suyeon.demo.tdd.dto;
+package com.suyeon.demo.web.dto;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;

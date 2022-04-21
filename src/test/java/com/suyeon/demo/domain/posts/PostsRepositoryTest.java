@@ -12,7 +12,7 @@ import java.util.List;
 import static org.assertj.core.api.Assertions.assertThat;
 
 @RunWith(SpringRunner.class) // SpringRunner라는 스프링 실행자를 사용해서 테스트 실행. spring-boot-test와 Junit 사이에 연결자 역할
-@SpringBootTest
+@SpringBootTest              // 기본 @SpringBootTest 만 사용한 경우, H2 데이터베이스가 자동으로 실행
 public class PostsRepositoryTest {
 
     @Autowired
